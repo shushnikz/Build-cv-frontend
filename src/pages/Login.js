@@ -13,7 +13,7 @@ function Register() {
     const onFinish = async (values) => {
         setLoading(true)
         try {
-            const user = await axios.post("/api/user/login", values)
+            const user = await axios.post("https://build-cv-backend.onrender.com/api/user/login", values)
             message.success("Login successfully")
             localStorage.setItem("Resumebuild-user", JSON.stringify(user.data))
             setLoading(false)

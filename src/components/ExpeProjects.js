@@ -5,10 +5,6 @@ import TextArea from 'antd/es/input/TextArea';
 
 function ExpeProjects() {
 
-    // const onFinish = (values: any) => {
-    //     console.log('Received values of form:', values);
-    // };
-
     return (
         <div>
 

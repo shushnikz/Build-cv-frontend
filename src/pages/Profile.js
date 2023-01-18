@@ -16,7 +16,7 @@ function Profile() {
     const onFinish = async (values) => {
         setLoading(true)
         try {
-            const result = await axios.post("/api/user/update", { ...values, _id: user._id })
+            const result = await axios.post("https://build-cv-backend.onrender.com/api/user/update", { ...values, _id: user._id })
             localStorage.setItem("Resumebuild-user", JSON.stringify(result.data))
             setLoading(false)
             message.success("Profile updated successfully")

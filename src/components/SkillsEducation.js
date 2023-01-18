@@ -4,10 +4,6 @@ import { Button, Form, Input } from 'antd';
 
 function SkillsEducation() {
 
-    // const onFinish = (values: any) => {
-    //     console.log('Received values of form:', values);
-    // };
-
     return (
         <div>
             <h5><b>Education</b></h5>
