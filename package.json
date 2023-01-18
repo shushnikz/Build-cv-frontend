@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://build-cv-backend.onrender.com/"
+  "proxy": "http://localhost:5000/"
 }
