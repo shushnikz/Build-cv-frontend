@@ -1,0 +1,29 @@
+.layout{
+    height: 100vh;
+    padding: 10px 50px;
+}
+.header{
+    height: 10%;
+    background-color: #000000c6;
+    color: #ffffffc2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.header h1{
+    font-size: 27px;
+}
+.content{
+    height: 85%;
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #b6b0b0;
+    padding: 10px;
+}
+.header button{
+    border: 1px solid white !important;
+    color: aliceblue;
+}
